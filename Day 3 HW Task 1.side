@@ -1,0 +1,63 @@
+{
+  "id": "82f4acaa-6a89-4e3d-b48b-3c58dabf497f",
+  "version": "2.0",
+  "name": "Day 3 HW",
+  "url": "https://www.demoblaze.com",
+  "tests": [{
+    "id": "5b6f1c59-45d7-4812-99a5-e4efa3d7de7f",
+    "name": "Task 1",
+    "commands": [{
+      "id": "e6b7df49-18ee-4067-83a9-10e7841a36f2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fc372c2-397f-4632-9b14-d08fd7dca500",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a1200f1-74a6-4967-afa5-a66b0d30723f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact')]", "xpath:link"],
+        ["xpath=//div[@id='navbarExample']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "375f29ef-959d-4165-96e9-a0367dec3517",
+      "comment": "",
+      "command": "click",
+      "target": "css=#exampleModal .btn-secondary",
+      "targets": [
+        ["css=#exampleModal .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='exampleModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d505bbac-0777-4205-884d-069ad4c2048b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5b6f1c59-45d7-4812-99a5-e4efa3d7de7f"]
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": []
+}
