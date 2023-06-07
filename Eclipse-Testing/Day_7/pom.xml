@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.selenium</groupId>
-  <artifactId>Day5</artifactId>
+  <artifactId>Day_7</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>Day5</name>
+  <name>Day_7</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -19,7 +19,7 @@
   </properties>
 
   <dependencies>
-	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -31,6 +31,7 @@
     <artifactId>webdrivermanager</artifactId>
     <version>5.3.3</version>
 </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
